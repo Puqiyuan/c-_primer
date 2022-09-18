@@ -11,7 +11,7 @@ all: $(OBJECTS)
 	$(CC) $(CCFLAGS) $(LOCFLAGS) $< -o $@
 
 clean:
-	rm -rf *.o core *.stackdump
+	rm -rf *.o core *.stackdump *.bin
 
 clobber: clean
 	rm -rf *.bin
